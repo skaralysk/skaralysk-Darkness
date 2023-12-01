@@ -1,8 +1,8 @@
 body {
     font-size: 11.6px;
-    color: #999;
+    color: #dfdfdf;
     min-width: 950px;
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
+    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #070707 !important;
 }
 
 a {
@@ -159,10 +159,10 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: #fff;
-    background: #0d0d0d url(https://i.bj-share.info/d210bb554ad0ef1587d32763755ecc4d.png) repeat-x center 184px;
-    border-top: 5px solid #242424;
+    background: linear-gradient(115deg, #0E0E12 62.12%, #151531 98.33%);
+    border-top: 2px solid #242424;
     clear: both;
-    box-shadow: 0 0 10px 1px #000;
+    box-shadow: 0 0 50px 1px #1D184F;
 }
 #logo {
     width: 100%;
@@ -180,23 +180,29 @@ ul.thin li {
 }
 #menu {
     position: absolute;
-    top: 272px; 
-    width: 90%;  
+    
+    top: 272px;
+    width: 100%; 
     text-align: center;
     /background-color: #454545;
     font-size: 10pt;
     z-index: 1001;
     min-width: 850px;
     border-radius: 10px;
-    border: 1px solid #5346E0;
-    background: linear-gradient(94deg, #0C0C0C 46.92%, #23262F 111.05%);
+    border: 1px solid;
+    border-top-color: #5346E0;
+    border-left-color: #000;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
+    
 
 }
 #chat #nav_irc, #collage #nav_collages, #forums #nav_forums, #index #nav_index, #moderar #nav_moderar, #requests #nav_requests, #rules #nav_rules, #staff #nav_staff, #top10 #nav_top10, #torrents #nav_torrents, #user #nav_userinfor, #wiki #nav_wiki {
 
 }
 #userinfo {
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
+    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #070707 !important;
     color: #777;
     width: 100%;
     text-align: center;
@@ -279,12 +285,14 @@ ul.thin li {
 }
 #searchbars input {
     position: relative;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 20px 5px 20px;
     font-size: .9em;
-    background-color: #000;
+    background-color: #0c0c22;
     color: #999;
     border-image-slice: 1;
-    border-image-source: linear-gradient(150deg, #5346E0, #000);}
+    border-image-source: linear-gradient(90deg, #5346E0, #0c0c22);
+    
+}
 
 ;
 }
@@ -326,7 +334,7 @@ ul.thin li {
     margin-bottom: -60px;
     padding: 10px 0;
     width: 100%;
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
+    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #070707;
     min-width: 850px;
 }
 #alerts a {
@@ -354,7 +362,10 @@ ul.thin li {
     width: 442px;
     margin: 2px auto 2px auto;
     padding: 10px;
-    box-shadow: 0 1px 4px #000;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid #1D184F;
+    background: linear-gradient(0deg, #151515 15.25%, #222 106.05%);
+    box-shadow: 0 1px 10px #1D184F;
 }
 .alertbar a {
     color: #555;
@@ -388,7 +399,7 @@ input.hidden {
 }
 div.linkbox {
     text-align: center;
-    padding: 5px;
+    padding: 20px;
 }
 .center {
     text-align: center;
@@ -401,10 +412,11 @@ div.linkbox {
     margin: 0 0;
 }
 p.min_padding {
-    margin: 2px 0;
+    margin: 1px 0;
 }
 .pad {
-    padding: 0.5em;
+    padding: 1em;
+        
 }
 .sidebar .pad {
     padding: 0px;
@@ -414,9 +426,10 @@ p.min_padding {
 }
 .box {
     font-size: 8.69pt;
-    background-color: #232323;
-    border: 1px solid #303030;
-    margin-bottom: 10px;
+    border-radius: 10px 10px 20px 20px;
+    background: linear-gradient(115deg, #0E0E12 62.12%, #151531 98.33%);
+    border: 1px solid #000000;
+    margin-bottom: 20px;
     box-shadow: 0 1px 4px #000;
 }
 .box2 {
@@ -436,14 +449,16 @@ p.min_padding {
 .sidebar img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 0px 0px 20px 20px;
 }
 .head {
-    padding: 6px;
-    border-bottom: 1px solid #000;
-    background: #121212;
-    color: #fff;
-    background-color: #383738;
-    box-shadow: 0px 1px #000;
+    padding: 8px;
+    color: #;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #1D184F;
+    background: linear-gradient(94deg, #0C0C0C 46.92%, #23262F 111.05%);
+    box-shadow: 0 1px 4px #000;
+    
 }
 .body {
     padding: -1px 10px 10px 10px;
@@ -478,11 +493,11 @@ ul.nobullet {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #303030;
+    border: 1px solid #cea3a3;
     box-shadow: 0 1px 4px #000;
 }
 tr {
-    border: 1px solid #303030;
+    border: 1px solid #000;
 }
 tr.rowa {
     background-color: #222;
@@ -495,14 +510,14 @@ td, th {
   background-color: #232323;
 }
 .colhead {
-    background-color: #383738;
+    background-color: #171717;
     font-weight: 700;
     color: #fff;
     border-bottom: 2px solid #000;
 }
 .colhead td, .colhead th, td.colhead {
-    padding-left: 16px;
-    padding-right: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .width50 {
   width: 100%;
@@ -609,7 +624,8 @@ ul.poll li.graph {
     font-weight: 700;
 }
 .torrent_table tr.group, tr.group_torrent, tr.torrent {
-    background-color: #222;
+    background: linear-gradient(111deg, #171717 65.9%, #23262F 101.82%);
+    
 }
 .torrent_table div.tags {
     font-weight: 400;
@@ -682,7 +698,7 @@ table.forum_post td.body {
 }
 tbody {
     max-width: 690px;
-    background: #232323;
+    background: #0A0A0C;
 }
 blockquote {
     margin: 10px;
@@ -775,6 +791,7 @@ table#torrent_table.torrent_table {
 }
 form tr {
     background-color: #222;
+    
 }
 .center {
     text-align: center;
@@ -850,34 +867,34 @@ tr.row2 {
     background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #23 !important;
 }
 button:hover, input[type=button]:hover, input[type=submit]:hover {
-    background: #383838;
+    background: #2F2A4D;
     text-decoration: none;
 }
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
-    background: #303030;
-    color: #686868;
+    background: #000;
+    color: #fff;
     cursor: default;
 }
 button, input[type=button], input[type=submit] {
     min-width: 30px;
     margin-bottom: 0;
     border: 1px solid;
-    border-top-color: #494649;
-    border-left-color: #494649;
-    border-bottom-color: #494649;
-    border-right-color: #494649;
+    border-top-color: #2F2A4D;
+    border-left-color: #2F2A4D;
+    border-bottom-color: #2F2A4D;
+    border-right-color: #2F2A4D;
     cursor: pointer;
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
     vertical-align: middle;
     text-align: center;
-    padding: 6px 8px 6px 8px;
-    letter-spacing: .075em;
+    padding: 6px 18px 6px 18px;
+    letter-spacing: 0.075em;
     color: #fff;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
-    border-radius: 6px;
+    border-radius: 80px;
 }
 #menudrop ul {
     list-style: none;
@@ -906,14 +923,16 @@ button, input[type=button], input[type=submit] {
     background: #ddd;
 }
 #menudrop ul li:hover {
-    background: #303030;
+    background: #1D184F;
 }
 #menudrop ul ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background: #454545;
+    background: linear-gradient(94deg, #0C0C0C 46.92%, #23262F 111.05%);
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #5346E0;
     padding: 0;
     text-align: left;
 }
@@ -938,7 +957,7 @@ button, input[type=button], input[type=submit] {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    background-color: #404040;
+    background-color: #bc04ff;
     text-indent: -9999px;
     display: none;
     -webkit-border-radius: 6px;
@@ -1082,10 +1101,10 @@ ul.bjqs-controls.v-centered li.bjqs-next a {
     min-width: 90px;
     margin-bottom: 0;
     border: 1px solid;
-    border-top-color: #494649;
+    border-top-color: #2F2A4D;
     border-left-color: #494649;
-    border-bottom-color: #494649;
-    border-right-color: #494649;
+    border-bottom-color: #2F2A4D;
+    border-right-color: #2F2A4D;
     cursor: pointer;
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
@@ -1102,9 +1121,9 @@ ul.bjqs-controls.v-centered li.bjqs-prev a {
     min-width: 90px;
     margin-bottom: 0;
     border: 1px solid;
-    border-top-color: #494649;
-    border-left-color: #494649;
-    border-bottom-color: #494649;
+    border-top-color: #2F2A4D;
+    border-left-color: #2F2A4D;
+    border-bottom-color: #2F2A4D;
     border-right-color: #494649;
     cursor: pointer;
     background-color: rgba(0, 0, 0, .2);
@@ -1169,7 +1188,7 @@ ul.bjqs-controls.v-centered li a {
     font-size: 12px;
 }
 ul.bjqs-controls.v-centered li a:hover {
-    background: #383838;
+    background: #1D184F;
     text-decoration: none;
 }
 ol.bjqs-markers li a {
