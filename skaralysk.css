@@ -2,7 +2,8 @@ body {
     font-size: 11.6px;
     color: #dfdfdf;
     min-width: 950px;
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #070707 !important;
+    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #000 !important;
+    /*mudar a cor do fundo*/
 }
 
 a {
@@ -180,9 +181,10 @@ ul.thin li {
 }
 #menu {
     position: absolute;
-    
-    top: 272px;
-    width: 100%; 
+    left: 100px;
+    right: 100px;
+    top: 267px;
+    /width: 90%;
     text-align: center;
     /background-color: #454545;
     font-size: 10pt;
@@ -195,6 +197,7 @@ ul.thin li {
     border-bottom-color: #000;
     border-right-color: #000;
     background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
+    /*mudar a cor da barra de home-e direção*/
     
 
 }
@@ -202,7 +205,7 @@ ul.thin li {
 
 }
 #userinfo {
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #070707 !important;
+    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #000 !important; /*mudar a cor da barra de upload*/
     color: #777;
     width: 100%;
     text-align: center;
@@ -287,10 +290,17 @@ ul.thin li {
     position: relative;
     padding: 5px 20px 5px 20px;
     font-size: .9em;
-    background-color: #0c0c22;
+    text-align: ;
+    background: linear-gradient(5deg, #0C0C0C 46.92%, #23262F 111.05%);
+    /background-color: #0c0c22;
     color: #999;
+    border: 1px solid;
+    /border-top-color: #5346E0;
+    /border-left-color: #5346E0;
+    /border-bottom-color: #5346E0;
+    /border-right-color: #5346E0;
     border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, #5346E0, #0c0c22);
+    border-image-source: linear-gradient(90deg, #5346E0, #0c0c22); /*mudar a cor das pesquisas*/
     
 }
 
@@ -334,7 +344,7 @@ ul.thin li {
     margin-bottom: -60px;
     padding: 10px 0;
     width: 100%;
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #070707;
+    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #000; /*mudar a cor da barra informação*/
     min-width: 850px;
 }
 #alerts a {
@@ -364,7 +374,9 @@ ul.thin li {
     padding: 10px;
     border-radius: 30px 30px 30px 30px;
     border: 1px solid #1D184F;
-    background: linear-gradient(0deg, #151515 15.25%, #222 106.05%);
+    background: url(https://img.icons8.com/?size=40&id=114954&format=png) no-repeat scroll 0 #151515 !important;
+    padding: 10px;
+    /background: linear-gradient(0deg, #151515 15.25%, #222 106.05%);
     box-shadow: 0 1px 10px #1D184F;
 }
 .alertbar a {
@@ -884,6 +896,7 @@ button, input[type=button], input[type=submit] {
     border-bottom-color: #2F2A4D;
     border-right-color: #2F2A4D;
     cursor: pointer;
+    background: url(https://media2.giphy.com/media/pOhqA8rf4IwuDoM0QI/200w.webp?cid=ecf05e47uxncv4oo84zxx2emyo53bfjo02tknjyjzobbf9fh&ep=v1_gifs_search&rid=200w.webp&ct=g);
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -1220,15 +1233,23 @@ cursor: help;
     position: absolute;
     z-index: 6001;
     top: 0px;
-    left: 0;
-    right: 0;
-    /background: #282828;
+    left: 600px;
+    right: 600px;
+    border-radius: 10px;
+    /border: 1px solid;
+    /border-top-color: #000;
+    /border-left-color: #000;
+    /border-bottom-color: #5346E0;
+    /border-right-color: #000;
+    /background: linear-gradient(90deg, #0C0C0C 46.92%, #23262F 111.05%);
+    /background: #5346E0;
     text-align: center;
     line-height: 2.5;
     overflow: hidden;
     -webkit-box-shadow: 0 0 0px #282828;
     -moz-box-shadow:    0 0 0px #282828;
     box-shadow:         0 0 0px #282828;
+    /*mudar a cor da barra de doação*/
 }
 .browse_rating {
     background: black;
