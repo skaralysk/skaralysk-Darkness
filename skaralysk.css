@@ -55,7 +55,7 @@ textarea {
     padding: 2px 3px;
 }
 img {
-    border: none;
+    border-radius: 10px;
 }
 .r01 {
     color: #ff1300;
