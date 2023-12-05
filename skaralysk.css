@@ -227,10 +227,28 @@ ul.thin li {
     margin: 0 .1em;
     line-height: 20px;
     vertical-align: middle;
-    padding: 2px;
+    padding: 20px;
+    
 }
+
+#userinfo_minor #nav_donations {
+    /*barra progresso*/
+  --progress: 12; 
+  content: "";
+  display: inline;
+  margin: 0 .8%;
+  padding: 3px 100px 3px 10px;
+  border-radius: 10px;
+  background-color: #000;
+  content: "";
+  width: calc(var(--progress) * 1%);
+  background-color: hsl( calc(var(--progress) * 1.2) , 100%, 10%);
+      
+}
+
 #userinfo a {
-    color: #777;
+    color: #fff;
+    
 }
 #userinfo a:hover {
     text-decoration: underline;
