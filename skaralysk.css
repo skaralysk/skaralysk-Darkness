@@ -233,7 +233,7 @@ ul.thin li {
 
 #userinfo_minor #nav_donations {
     /*barra progresso*/
-  --progress: 12; 
+  --progress: 15; 
   content: "";
   display: inline;
   margin: 0 .8%;
