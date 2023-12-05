@@ -371,10 +371,10 @@ ul.thin li {
     font-size: .99em;
     width: 600px;
     margin: 2px auto 2px auto;
-    padding: 10px;
+    /padding: 10px;
     border-radius: 30px 30px 30px 30px;
     border: 1px solid #1D184F;
-    background: url(https://img.icons8.com/?size=40&id=114954&format=png) no-repeat scroll 0 #151515 !important;
+    background: url(https://img.icons8.com/?size=40&id=114954&format=png) no-repeat scroll right; 0 #151515 !important; 
     padding: 10px;
     /background: linear-gradient(0deg, #151515 15.25%, #222 106.05%);
     box-shadow: 0 1px 10px #1D184F;
