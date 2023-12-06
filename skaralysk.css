@@ -207,7 +207,7 @@ ul.thin li {
 #userinfo {
     background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #000 !important; /*mudar a cor da barra de upload*/
     color: #777;
-    width: 100%;
+    width: 82%;
     text-align: center;
     font-size: 8pt;
     padding: 3px 0;
@@ -227,24 +227,37 @@ ul.thin li {
     margin: 0 .1em;
     line-height: 20px;
     vertical-align: middle;
-    padding: 20px;
+    padding: 10px;
     
 }
 
-#userinfo_minor #nav_donations {
+#userinfo_minor #nav_donations a {
     /*barra progresso*/
-  --progress: 20; 
-  content: "";
-  display: inline;
-  margin: 0 .8%;
-  padding: 3px 100px 3px 10px;
+  --progress: 19;
+  position: relative;
+  left: 420px;
+  top: -12px;
+  height: 2px;
+  margin: auto;
+  padding: 1px;
+  /text-align: right;
   border-radius: 10px;
-  background-color: #000;
+  background-color: #1d1d1d;
+  
+  display: grid;
+  width: 200px  
+}
+
+#userinfo_minor #nav_donations a::before {
+    /*barra progresso*/
   content: "";
   width: calc(var(--progress) * 1%);
-  background-color: hsl( calc(var(--progress) * 1.2) , 100%, 10%);
-      
+  background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+  transition: all 0.2s ease;
+  height: 5px;
+  border-radius: 10px;
 }
+
 
 #userinfo a {
     color: #fff;
@@ -1250,8 +1263,8 @@ cursor: help;
 #noteAlertMsg {
     position: absolute;
     z-index: 6001;
-    top: 0px;
-    /left: 600px;
+    top: -7px;
+    left: 700px;
     /right: 600px;
     /border-radius: 10px;
     /border: 1px solid;
@@ -1263,6 +1276,7 @@ cursor: help;
     /background: #5346E0;
     text-align: center;
     line-height: 2.5;
+    font-size: 10px;
     overflow: hidden;
     -webkit-box-shadow: 0 0 0px #282828;
     -moz-box-shadow:    0 0 0px #282828;
