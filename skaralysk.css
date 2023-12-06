@@ -1263,8 +1263,8 @@ cursor: help;
 #noteAlertMsg {
     position: absolute;
     z-index: 6001;
-    top: -7px;
-    left: 700px;
+    top: 0px;
+    /left: 700px;
     /right: 600px;
     /border-radius: 10px;
     /border: 1px solid;
