@@ -927,10 +927,10 @@ button, input[type=button], input[type=submit] {
     border-bottom-color: #2F2A4D;
     border-right-color: #2F2A4D;
     cursor: pointer;
-    background: url(https://media2.giphy.com/media/pOhqA8rf4IwuDoM0QI/200w.webp?cid=ecf05e47uxncv4oo84zxx2emyo53bfjo02tknjyjzobbf9fh&ep=v1_gifs_search&rid=200w.webp&ct=g);
+     /*background: url(https://media2.giphy.com/media/pOhqA8rf4IwuDoM0QI/200w.webp?cid=ecf05e47uxncv4oo84zxx2emyo53bfjo02tknjyjzobbf9fh&ep=v1_gifs_search&rid=200w.webp&ct=g);*/
+    background: url(https://media4.giphy.com/media/ftYbYxLSsBgkcqN8OE/giphy.webp?cid=ecf05e47ob3oqn6vmxklsfvra3p8xinkpza6ukwadn11qs28&ep=v1_gifs_search&rid=giphy.webp&ct=g);
     background-color: rgba(0, 0, 0, .2);
-    background-repeat: no-repeat;
-    vertical-align: middle;
+    background-repeat: space;
     text-align: center;
     padding: 6px 18px 6px 18px;
     letter-spacing: 0.075em;
