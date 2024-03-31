@@ -199,7 +199,7 @@ ul.thin li {
 }
 
 #header {
-    background: url('https://i.imgur.com/31fJTci.png[/img]') no-repeat top center; 
+    background: url('https://i.imgur.com/TXhJUU2.png') no-repeat top center; 
     //background-color: #fff;
     width: 100%;
     padding: 100px 0 0 0;
@@ -250,8 +250,8 @@ ul.thin li {
 #menu {
     background: rgba(217, 217, 217, 0.10);
     backdrop-filter: blur(3px);
-    position: absolute;
-    top: 265px;
+    position: fixed;
+    top: 0px;
     width: 100%;
     text-align: center;
     font-size: 13px;
@@ -354,7 +354,7 @@ ul.thin li {
 #userinfo {
     //background: rgba(217, 217, 217, 0.009999999776482582);
     position: absolute;
-    top: 297px;
+    top: 80px;
     padding: 4px 0px;
     width: 100%;
     color: #b1a1ff;
@@ -419,10 +419,11 @@ ul.thin li {
 #searchbars input { /*mudar o stilo das pesquisas*/
     background: rgba(255, 255, 255, 0.30);
     backdrop-filter: blur(3px);
+    top: 120px;
     border-radius: 30px;
     border: 1px solid #484848;
     position: relative;
-    padding: 5px 5px 5px 25px;
+    padding: 10px 5px 5px 25px;
     font-size: 95%;
     color: #fff;
 }
@@ -1693,7 +1694,7 @@ cursor: help;
 #noteAlertMsg {
     position: absolute;
     z-index: 6001;
-    top: 20px;
+    top: 397px;
     left: 0;
     right: 0;
     /background: #282828;
