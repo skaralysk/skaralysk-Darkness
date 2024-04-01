@@ -3,18 +3,18 @@ body {
     //background-color: #eaeaea;
     min-width: 950px;
     color: #fff;
-    animation: changeBackgroundColor 7s infinite;
+    animation: Color 5s infinite;
 }
 
-@keyframes changeBackgroundColor {
+@keyframes Color {
   0% {
-    background: #62667F;
+    background: #686C86;
   }
   50% {
     background: #4A4D61;
   }
   100% {
-    background: #62667F;
+    background: #686C86;
   }
 }
 
