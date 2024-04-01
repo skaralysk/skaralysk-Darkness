@@ -934,7 +934,7 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group {
-    background-color: #bac8d2;
+    //background-color: #bac8d2;
 }
 
 .torrent_table tr.group_torrent:nth-child(4n+2) {
@@ -942,7 +942,7 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group_torrent:nth-child(4n) {
-    background-color: #F2F2F2;
+    //background-color: #F2F2F2;
 }
 
 .torrent_table tr.group_torrent:hover {
