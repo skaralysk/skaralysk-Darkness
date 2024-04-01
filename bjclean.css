@@ -1,8 +1,21 @@
 body {
-    background: linear-gradient(162.09deg, #686c87 0%, #30323f 89.17%);
+    //background: linear-gradient(162.09deg, #686c87 0%, #30323f 89.17%);
     //background-color: #eaeaea;
     min-width: 950px;
     color: #fff;
+    animation: changeBackgroundColor 7s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background: #62667F;
+  }
+  50% {
+    background: #4A4D61;
+  }
+  100% {
+    background: #62667F;
+  }
 }
 
 a {
@@ -719,7 +732,7 @@ table {
 }
 
 #torrent_table {
-    //background: #000;
+    background: #000;
     border-collapse: collapse;
     margin: 0% auto;
     max-width: 990px;
@@ -946,7 +959,7 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group_torrent:hover {
-    //background-color: #E6E6E6;
+    background-color: #E6E6E6;
 }
 
 .torrent_table tr.torrent {
