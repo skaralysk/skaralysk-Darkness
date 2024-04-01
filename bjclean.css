@@ -955,7 +955,7 @@ ul.poll li.graph {
 
 .torrent_table tr.torrent:hover,
 .torrent_table tr.group:hover {
-    background-color: #E6E6E6;
+    //background-color: #E6E6E6;
 }
 
 .torrent_table div.tags {
