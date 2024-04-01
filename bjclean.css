@@ -605,7 +605,7 @@ p.min_padding {
     background: #444961;
     /*! border: 1px solid #CACACA; */
     border-radius: 20px;
-    padding: 2px;
+    padding: 4px;
     margin-bottom: 10px;
     
     
@@ -1177,6 +1177,7 @@ ul .invitetree {
 
 .center {
     text-align: center;
+    margin: 0px 0px 0px -10px;
 }
 
 .spellcheck {
