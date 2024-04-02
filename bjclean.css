@@ -1710,7 +1710,7 @@ cursor: help;
 }
 #noteAlertMsg {
     position: absolute;
-    z-index: 6001;
+    //z-index: 6001;
     top: 397px;
     left: 0;
     right: 0;
