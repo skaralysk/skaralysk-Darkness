@@ -734,7 +734,7 @@ table {
 }
 
 #torrent_table {
-    background: #000;
+    //background: #000;
     border-collapse: collapse;
     margin: 0% auto;
     max-width: 990px;
