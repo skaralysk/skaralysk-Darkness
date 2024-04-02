@@ -462,7 +462,7 @@ p.min_padding {
         
 }
 .sidebar .pad {
-    padding: 0px;
+    padding: 0px 0px 10px 0px;
 }
 .vertical_space {
     margin-bottom: 10px;
@@ -490,9 +490,10 @@ p.min_padding {
     width: 255px;
 }
 .sidebar img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;
     border-radius: 0px 0px 20px 20px;
+  
 }
 .head {
     padding: 8px;
