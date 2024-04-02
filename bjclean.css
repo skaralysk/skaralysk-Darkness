@@ -339,6 +339,7 @@ ul.thin li {
 }
 
 #menudrop ul ul li {
+    position: static;
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid #777A93;
