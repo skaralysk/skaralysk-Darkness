@@ -270,7 +270,7 @@ ul.thin li {
     width: 100%;
     text-align: center;
     font-size: 13px;
-    z-index: 1001;
+    z-index: 6001;
     /*! box-shadow: 0 2px 4px #9F9F9F; */
 }
 .menu {
