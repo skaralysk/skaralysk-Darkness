@@ -265,7 +265,7 @@ ul.thin li {
 #menu {
     background: rgba(217, 217, 217, 0.10);
     backdrop-filter: blur(3px);
-    position: fixed;
+    position: absolute;
     top: 0px;
     width: 100%;
     text-align: center;
@@ -339,7 +339,7 @@ ul.thin li {
 }
 
 #menudrop ul ul li {
-    position: static;
+    //position: static;
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid #777A93;
