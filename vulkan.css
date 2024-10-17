@@ -231,6 +231,12 @@ ul.thin li {
     padding: 2px;
     color: #bbb;
 }
+.groupbanner {
+    height:140px;
+    width:758px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 30px red;
+}
 #userinfo a {
     color: #bbb;
 }
