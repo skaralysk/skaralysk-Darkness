@@ -154,6 +154,26 @@ ul.thin li {
     position: relative;
     top: 59px;
 }
+.noty_bar {
+   /background: linear-gradient(270deg, #FFF 86.90%, #000 87.92%);
+
+}
+
+.noty_text{
+    margin: 0px 0px 0px 20px; 
+}
+.noty_message {
+    background: url(https://i.imgur.com/ljEGTkq.png) no-repeat left 10px;
+    margin: 0px 0px 0px 10px;
+   
+}
+.noty_buttons a {
+    background-color: red;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 2px 5px 2px 5px;
+    color: #fff;  
+}
 #wrapper {
     width: 100%;
     margin: 0 auto;
@@ -577,7 +597,10 @@ td.colhead {
     border-bottom: 1px solid #000;
 }
 .colhead_dark a {
+    padding: 3px 0px 0px 23px;
+    background: url(https://i.imgur.com/8ILyByF.gif) no-repeat;
     color: #fff;
+    /*https://i.imgur.com/nKvhK9t.png*/
 }
 td.label {
     font-weight: 700;
