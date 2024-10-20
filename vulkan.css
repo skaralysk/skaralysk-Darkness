@@ -51,6 +51,7 @@ input {
     padding: 2px 3px;
 }
 textarea {
+    border-radius: 10px;
     padding: 2px 3px;
 }
 img {
