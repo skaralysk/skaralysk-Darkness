@@ -420,6 +420,9 @@ input.hidden {
     display: none;
 }
 .thin {
+    background: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
     max-width: 1152px;
     margin: 0 auto;
 }
