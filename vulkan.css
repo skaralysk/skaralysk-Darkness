@@ -136,7 +136,8 @@ ul.thin li {
             /*mudar wallpaper*/
 #header {
     /background: url(https://i.imgur.com/k5wyVtb.png) no-repeat top center;
-    background: url(https://i.imgur.com/aDcQCRW.gif) no-repeat top center;
+    /background: url(https://i.imgur.com/aDcQCRW.gif) no-repeat top center;
+    background: url(https://i.imgur.com/lFPbcGP.gif)no-repeat top center;
     width: 100%;
     padding: 0;
 }
@@ -945,7 +946,7 @@ tr.row2 {
     background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #23 !important;
 }
 button:hover, input[type=button]:hover, input[type=submit]:hover {
-    background: #383838;
+    background: red;
     text-decoration: none;
 }
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
