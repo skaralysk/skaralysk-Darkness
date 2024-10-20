@@ -154,7 +154,13 @@ ul.thin li {
     position: relative;
     top: 59px;
 }
+
+.i-am-new{
+    
+    left: 20px;
+}
 .noty_bar {
+   
    /background: linear-gradient(270deg, #FFF 86.90%, #000 87.92%);
 
 }
