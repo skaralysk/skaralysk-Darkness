@@ -135,12 +135,8 @@ ul.thin li {
 }
             /*mudar wallpaper*/
 #header {
-    /background: url(https://i.imgur.com/8OkY0m3.png) no-repeat top center;
-    background: url(https://i.imgur.com/k5wyVtb.png) no-repeat top center;
-    /background: url(https://i.bj-share.info/71d91ed3f04618b2033b4410f5b783d8.gif) no-repeat top center;    
-    /background: url(https://i.bj-share.info/aff17b3ca6c3d1c06a668562d96ea604.gif) no-repeat top center;
-    /background: url(https://i.bj-share.info/9df4cf5dbf11d9b7b73d5d9906e18303.gif) no-repeat top center;
-    /background-color: #000;
+    /background: url(https://i.imgur.com/k5wyVtb.png) no-repeat top center;
+    background: url(https://i.imgur.com/aDcQCRW.gif) no-repeat top center;
     width: 100%;
     padding: 0;
 }
