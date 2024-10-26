@@ -493,7 +493,7 @@ p.min_padding {
     max-width: 99%;
    /max-height: 100%;
     margin-top: 18.5%;
-    box-shadow: 0 1px 30px #FF0000;
+    box-shadow: 0 px 30px #000;
 }
 .profileinfo img {
     max-width: 545px;
@@ -607,8 +607,8 @@ td.colhead {
     border-bottom: 1px solid #000;
 }
 .colhead_dark a {
-    padding: 3px 0px 0px 23px;
-    background: url(https://i.imgur.com/8ILyByF.gif) no-repeat;
+    /padding: 3px 0px 0px 23px;
+    /background: url(https://i.imgur.com/8ILyByF.gif) no-repeat;
     color: #fff;
     /*https://i.imgur.com/nKvhK9t.png*/
 }
@@ -956,7 +956,7 @@ button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
     cursor: default;
 }
 button, input[type=button], input[type=submit] {
-    min-width: 30px;
+    min-width: 60px;
     margin-bottom: 0;
     border: 1px solid;
     border-top-color: #494649;
@@ -974,7 +974,7 @@ button, input[type=button], input[type=submit] {
     text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
-    border-radius: 6px;
+    border-radius: 30px;
 }
 #menudrop ul {
     list-style: none;
