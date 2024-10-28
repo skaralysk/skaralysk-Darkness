@@ -392,9 +392,9 @@ ul.thin li {
     float: left;
 }
 .alertbar {
-    /background-color: #373637;
+    /background-color: #333233;
     text-align: center;
-    color: #ccc;
+    color: red;
     font-weight: 700;
     font-size: .99em;
     width: 442px;
