@@ -229,13 +229,6 @@ ul {
     box-sizing: initial;
 }
 
-.alertbar.blend {
-    background-color: #373637;
-    border: 1px solid #373637;
-    width: 440px;
-    margin-top: -1px;
-}
-
 a.beta {
 	font-weight: bold;
 	color: #ff0000;
