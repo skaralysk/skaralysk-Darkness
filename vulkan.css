@@ -2,6 +2,7 @@ body {
     font-size: 11.6px;
     color: #dfd2d2de;
     min-width: 950px;
+    background: url(https://i.imgur.com/mK7XUIT.png) no-repeat top center;
     background-color: #0f0200;
 }
 a {
@@ -147,8 +148,8 @@ ul.thin li {
     margin: auto;
     width: 100%;
     overflow: hidden;
-    background: url(https://i.imgur.com/UFZAR4t.png)no-repeat top center;
-    background-color: #0f0200;
+    /background: url(https://i.imgur.com/UFZAR4t.png)no-repeat top center;
+    /background-color: #0f0200;
     position: relative;
     top: 59px;
 }
