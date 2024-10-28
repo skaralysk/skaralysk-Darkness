@@ -436,8 +436,8 @@ input.hidden {
     font-weight: 700;
 }
 div.linkbox {
-    background: rgba(0, 0, 0, 0.20);
-    backdrop-filter: blur(10px);
+    /background: rgba(0, 0, 0, 0.20);
+    /backdrop-filter: blur(10px);
     text-align: center;
     padding: 15px;
 }
