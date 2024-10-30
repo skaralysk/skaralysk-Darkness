@@ -460,8 +460,8 @@ p.min_padding {
     padding: 1em;
 }
 .sidebar .pad {
-    margin: -20px 10px 10px 10px;
-    padding: 5px 20px 0px 20px;
+    /*! margin: -20px 10px 10px 10px; */
+    /padding: 5px 20px 0px 20px;
 }
 .vertical_space {
     margin-bottom: 10px;
@@ -492,9 +492,9 @@ p.min_padding {
 }
 .sidebar img {
     border-radius: 10px;
-    max-width: 99%;
-   /max-height: 100%;
-    margin-top: 18.5%;
+    max-width: 100%;
+    max-height: 100%;
+    /margin-top: 18.5%;
     box-shadow: 0 px 30px #000;
 }
 .profileinfo img {
