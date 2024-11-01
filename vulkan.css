@@ -461,7 +461,7 @@ p.min_padding {
     margin: 10px;
 }
 .sidebar .pad {
-    /margin: -27px 5px 5px 5px;
+    margin: 0px;
     /padding: 5px 20px 0px 20px;
 }
 .vertical_space {
