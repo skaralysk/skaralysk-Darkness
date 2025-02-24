@@ -335,7 +335,7 @@ ul.thin li {
     height: 1em;
     float: left;
 }
-/* Alerta com efeito de vibração e pausa */
+/* Alerta com efeito de vibração e pausa de 6 segundos */
 .alertbar {
     background-color: #17181c;
     text-align: center;
@@ -349,10 +349,10 @@ ul.thin li {
     background: #18191D;
     box-shadow: inset 6px 6px 12px #141518,
                 inset -6px -6px 12px #1c1e22;
-    animation: vibratePause 4s infinite;
+    animation: vibratePause 8s infinite;
 }
 
-/* Animação de vibração com pausa */
+/* Animação de vibração com pausa de 6 segundos */
 @keyframes vibratePause {
     0% { transform: translate(0); }
     5% { transform: translate(-2px, 2px); }
@@ -360,7 +360,7 @@ ul.thin li {
     15% { transform: translate(-2px, -2px); }
     20% { transform: translate(2px, 2px); }
     25% { transform: translate(0); }
-    100% { transform: translate(0); } /* Pausa após a vibração */
+    100% { transform: translate(0); } /* Pausa até o fim */
 }
 
 .alertbar a {
