@@ -3,6 +3,19 @@ body {
     min-width: 950px;
     background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
 }
+/* Aplica o efeito a todas as imagens com a classe destitems dest4 */
+.destitems {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+/* Efeito ao passar o mouse */
+.destitems:hover {
+    transform: scale(1.1); /* Zoom */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+}
 a {
     text-decoration: none;
     border: none;
