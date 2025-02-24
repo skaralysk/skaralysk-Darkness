@@ -335,7 +335,7 @@ ul.thin li {
     height: 1em;
     float: left;
 }
-/* Efeito deslizante com fade-in */
+/* Alerta com efeito de vibração e pausa */
 .alertbar {
     background-color: #17181c;
     text-align: center;
@@ -349,23 +349,18 @@ ul.thin li {
     background: #18191D;
     box-shadow: inset 6px 6px 12px #141518,
                 inset -6px -6px 12px #1c1e22;
-    overflow: hidden;
-    animation: slideFadeIn 1s ease-out forwards;
+    animation: vibratePause 4s infinite;
 }
 
-/* Animação do texto */
-@keyframes slideFadeIn {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+/* Animação de vibração com pausa */
+@keyframes vibratePause {
+    0% { transform: translate(0); }
+    5% { transform: translate(-2px, 2px); }
+    10% { transform: translate(2px, -2px); }
+    15% { transform: translate(-2px, -2px); }
+    20% { transform: translate(2px, 2px); }
+    25% { transform: translate(0); }
+    100% { transform: translate(0); } /* Pausa após a vibração */
 }
 
 .alertbar a {
