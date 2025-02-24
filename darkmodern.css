@@ -852,8 +852,8 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
     text-decoration: none;
 }
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
-    background: #303030;
-    color: #686868;
+    background: #5c52e2;
+    color: #fff;
     cursor: default;
 }
 button, input[type=button], input[type=submit] {
@@ -883,6 +883,7 @@ button, input[type=button], input[type=submit] {
     float: left;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
 }
 #menudrop ul a {
     display: block;
