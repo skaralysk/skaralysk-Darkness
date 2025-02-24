@@ -335,17 +335,39 @@ ul.thin li {
     height: 1em;
     float: left;
 }
+/* Efeito deslizante com fade-in */
 .alertbar {
-    background-color: #222;
+    background-color: #17181c;
     text-align: center;
     color: #ccc;
     font-weight: 700;
-    font-size: .95em;
-    width: 350px;
-    margin: 0 auto 0 auto;
-    padding: 10px;
-    box-shadow: 0 1px 4px #000;
+    font-size: .99em;
+    width: 390px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #18191D;
+    box-shadow: inset 6px 6px 12px #141518,
+                inset -6px -6px 12px #1c1e22;
+    overflow: hidden;
+    animation: slideFadeIn 1s ease-out forwards;
 }
+
+/* Animação do texto */
+@keyframes slideFadeIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .alertbar a {
     color: #555;
     text-decoration: underline;
