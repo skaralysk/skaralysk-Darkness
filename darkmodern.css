@@ -1268,20 +1268,45 @@ color:#fff;
 float: none !important;
 cursor: help;
 }
+/* Efeito deslizante com fundo totalmente transparente e sem contorno */
 #noteAlertMsg {
     position: absolute;
     z-index: 6001;
-    top: 20px;
+    top: -100px; /* Começa fora da tela */
     left: 0;
     right: 0;
-    /background: #fde073;
     text-align: center;
     line-height: 2.5;
     overflow: hidden;
-    -webkit-box-shadow: 0 0 0px #282828;
-    -moz-box-shadow:    0 0 0px #282828;
-    box-shadow:         0 0 0px #282828;
+    background: rgba(0, 0, 0, 0); /* Fundo transparente */
+    color: #fff; /* Cor do texto */
+    box-shadow: none; /* Remove sombra */
+    border: none; /* Remove borda */
+    animation: slideDownBounce 1.2s ease-out forwards;
 }
+
+/* Animação deslizante com oscilação */
+@keyframes slideDownBounce {
+    0% {
+        top: -100px;
+        opacity: 0;
+    }
+    50% {
+        top: 30px;
+        opacity: 1;
+    }
+    70% {
+        top: 10px;
+    }
+    85% {
+        top: 20px;
+    }
+    100% {
+        top: 5px; /* Posição final */
+    }
+}
+
 .browse_rating {
     background: black;
 }
+
