@@ -633,6 +633,19 @@ ul.poll li.graph {
 .torrent_table tr {
     vertical-align: top;
 }
+/* Estilo base */
+.torrent.row {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Efeito ao passar o mouse */
+.torrent.row:hover {
+    transform: translateY(-5px); /* Elevação */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    background-color: #12171E; /* Leve mudança de fundo */
+}
+
 .colhead .sign, .colhead_dark .sign {
     padding: 0 8px 0 8px;
     vertical-align: middle;
