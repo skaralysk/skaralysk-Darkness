@@ -144,7 +144,7 @@ ul.thin li {
     margin: auto;
     width: 100%;
     overflow: hidden;
-    background: #18191D;
+    background: #0D1117;
     position: relative;
     top: 60px;
     
@@ -187,7 +187,7 @@ ul.thin li {
     font-size: 10pt;
     z-index: 1001;
     min-width: 850px;
-    background: #18191D;
+    background: #0D1117;
     /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
     box-shadow: 0 1px 4px #000;
     border-bottom: 1px solid #303030;
@@ -196,7 +196,7 @@ ul.thin li {
     /background-color: #303030;
 }
 #userinfo {
-    background: #18191D;
+    background: #0D1117;
     /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
     color: #b5b5b5;
     width: 100%;
@@ -273,7 +273,7 @@ ul.thin li {
     position: relative;
     padding: 3px 20px 10px 5px;
     font-size: 1.0em;
-    background-color: #18191D;
+    background-color: #0D1117;
     color: #ccc;
     border: 1px solid #303030;
     border-radius: 5px;
@@ -317,7 +317,7 @@ ul.thin li {
     margin-bottom: -60px;
     padding: 10px 0;
     width: 100%;
-    background: #18191D;
+    background: #0D1117;
     /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
     min-width: 850px;
 }
@@ -338,7 +338,7 @@ ul.thin li {
 }
 /* Alerta com efeito de vibração e pausa de 6 segundos */
 .alertbar {
-    background-color: #17181c;
+    background-color: #090C11;
     text-align: center;
     color: #ccc;
     font-weight: 700;
@@ -346,10 +346,10 @@ ul.thin li {
     width: 390px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    background: #18191D;
-    box-shadow: inset 6px 6px 12px #141518,
-                inset -6px -6px 12px #1c1e22;
+border-radius: 10px;
+background: #0D1117;
+box-shadow: inset 5px 5px 5px #0c0d0f,
+            inset -4px -4px 4px #222329;
     animation: vibratePause 8s infinite;
 }
 
@@ -423,7 +423,7 @@ p.min_padding {
 .box {
    border-radius: 10px;
     border: 1px solid #38393E;
-    background: #23262A;
+    background: #151B23;
     margin-bottom: 10px;
    
 }
@@ -453,7 +453,7 @@ p.min_padding {
     /box-shadow: 0 1px 4px #000;
     border-radius: 10px 10px 0px 0px;
     /border: 1px solid #38393E;
-    background: #18191D;
+    background: #090C11;
 }
 .body {
     padding: 3px 10px 10px 10px;
@@ -501,7 +501,7 @@ td, th {
     text-align: left;
 }
 .colhead {
-    background:#18191D;
+    background:#090C11;
     font-weight: 700;
     color: #fff;
 }
@@ -516,7 +516,7 @@ td, th {
     vertical-align: middle;
 }
 .colhead_dark {
-    background:#18191D;
+    background:#090C11;
     color: #ccc;
     vertical-align: middle;
     box-shadow: 0 1px 4px #000;
@@ -628,7 +628,7 @@ ul.poll li.graph {
     font-weight: 700;
 }
 .torrent_table tr.group, tr.group_torrent, tr.torrent {
-    background-color: #18191D;
+    background-color: #151B23;
 }
 .torrent_table div.tags {
     font-weight: 400;
@@ -860,10 +860,10 @@ table.shoutTable a {
     color: #0a84af;
 }
 tr.row1 {
-    background-color: #23262A;
+    background-color: #151B23;
 }
 tr.row2 {
-    background-color: #18191D;
+    background-color: #090C11;
 }
 button:hover, input[type=button]:hover, input[type=submit]:hover {
     background: #5c52e2;
