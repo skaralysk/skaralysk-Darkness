@@ -865,7 +865,7 @@ tr.row2 {
     background-color: #18191D;
 }
 button:hover, input[type=button]:hover, input[type=submit]:hover {
-    background: #383838;
+    background: #5c52e2;
     text-decoration: none;
 }
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
@@ -1235,7 +1235,7 @@ ul.bjqs-controls.v-centered li a {
     font-size: 12px;
 }
 ul.bjqs-controls.v-centered li a:hover {
-    background: #383838;
+    background: #5c52e2;
     text-decoration: none;
 }
 ol.bjqs-markers li a {
