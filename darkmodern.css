@@ -3,10 +3,7 @@ body {
     min-width: 950px;
     /background-color: #0D1117;
     background: linear-gradient(0deg, #0D1117 77.03%, #000 90.05%);
-
-
 }
-
 
 /* Aplica o efeito a todas as imagens com a classe destitems dest4 */
 .destitems {
@@ -321,7 +318,7 @@ ul.thin li {
 }
 #searchbars {
     position: absolute;
-    top: 300px;
+    top: 290px;
     width: 100%;
     text-align: center;
     padding: 4px 0;
@@ -329,12 +326,12 @@ ul.thin li {
 }
 #searchbars input {
     position: relative;
-    padding: 3px 60px 10px 5px;
+    padding: 10px 30px 10px 10px;
     font-size: 1.0em;
     background-color: #0D1117;
     color: #ccc;
     border: 1px solid #303030;
-    border-radius: 5px;
+    border-radius: 50px;
     
 }
 #searchbars ul {
