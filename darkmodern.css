@@ -394,7 +394,7 @@ ul.thin li {
 }
 /* Alerta com efeito de vibração e pausa de 6 segundos */
 .alertbar {
-    background-color: #090C11;
+    /background-color: #090C11;
     text-align: center;
     color: #ccc;
     font-weight: 700;
@@ -402,9 +402,10 @@ ul.thin li {
     width: 390px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    background: #0D1117;
-    box-shadow: inset 5px 5px 5px #0c0d0f,
+    border-radius: 50px;
+    border: 1px solid #151B23;
+    /background: #0D1117;
+    /box-shadow: inset 5px 5px 5px #0c0d0f,
             inset -4px -4px 4px #222329;
     animation: vibratePause 8s infinite;
 }
