@@ -4,6 +4,8 @@ body {
     /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
     background-color: #0D1117;
 }
+
+
 /* Aplica o efeito a todas as imagens com a classe destitems dest4 */
 .destitems {
     display: inline-block;
@@ -149,11 +151,17 @@ ul.thin li {
     padding: 0;
 }
 #header {
+    
     /background: url(https://i.bj-share.info/9977c7393caad4f3b3aff4eda7154901.png) no-repeat top center;
    background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
     background-color: #000;
     width: 100%;
     padding: 0;
+
+    
+
+}
+
 }
 #content {
     margin: auto;
@@ -1375,7 +1383,7 @@ cursor: help;
 }
 /* Contêiner com movimento */
 #noteAlertMsg {
-    position: fixed;
+    
     z-index: 9999;
     top: 300px; /* Começa fora da tela (embaixo) */
     left: 50%;
