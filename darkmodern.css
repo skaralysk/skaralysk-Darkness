@@ -1008,14 +1008,14 @@ button, input[type=button], input[type=submit] {
     background: #ddd;
 }
 #menudrop ul li:hover {
-    background: #303030;
+    background: #0D1117;
 }
 #menudrop ul ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background: #454545;
+    background: #1D2530;
     padding: 0;
     text-align: left;
 }
@@ -1044,6 +1044,7 @@ button, input[type=button], input[type=submit] {
     top: -160px; /* Ajuste este valor para subir o submenu */
     background: #454545; /* Ajuste conforme o design */
     z-index: 1;
+    background: #1D2530;
 }
 
 #irtopo {
