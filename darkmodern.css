@@ -1,7 +1,8 @@
 body {
     color: #b5b5b5;
     min-width: 950px;
-    background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
+    /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
+    background-color: #0D1117;
 }
 /* Aplica o efeito a todas as imagens com a classe destitems dest4 */
 .destitems {
@@ -172,9 +173,9 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: #fff;
-    border-top: 5px solid #242424;
+    /border-top: 5px solid #242424;
     box-shadow: 0 0 10px 1px #000;
-    background-color: #18191D;
+    /background-color: #18191D;
     clear: both;
 }
 #logo {
@@ -503,7 +504,7 @@ table, .table-list {
 }
 tr {
     border: 1px solid #303030;
-    background-color: #23262A;
+    background-color: #151B23;
 }
 tr.rowa {
     background-color: #222;
