@@ -496,7 +496,8 @@ ul.nobullet {
     list-style-type: none;
 }
 table, .table-list {
-    width: 100%;
+    /width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     border: 1px solid #303030;
     box-shadow: 0 1px 4px #000;
@@ -635,6 +636,19 @@ ul.poll li.graph {
     vertical-align: top;
 }
 /* Estilo base */
+.group {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+    background-color: #1d1e22; /* Cor base */
+}
+
+/* Efeito ao passar o mouse */
+.group:hover {
+    transform: translateY(-5px);
+    background-color: #0D1117 !important; /* Força a mudança de cor */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+/* Estilo base */
 .torrent.row {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 5px;
@@ -653,6 +667,19 @@ ul.poll li.graph {
     text-align: center;
     font-size: 12pt;
     font-weight: 700;
+}
+/* Estilo base */
+.torrent {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+    background-color: #1d1e22; /* Cor base */
+}
+
+/* Efeito ao passar o mouse */
+.torrent:hover {
+    transform: translateY(-5px);
+    background-color: #0D1117 !important; /* Força a mudança de cor */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 .torrent_table tr.group, tr.group_torrent, tr.torrent {
     background-color: #151B23;
