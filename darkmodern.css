@@ -195,12 +195,12 @@ ul.thin li {
 }
 #menu {
     position: absolute;
-    top: 272px;
+    top: 0px;
     width: 100%;
     text-align: center;
     /background-color: #454545;
     font-size: 10pt;
-    z-index: 1001;
+    z-index: 6001;
     min-width: 850px;
     background: #0D1117;
     /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
@@ -314,7 +314,7 @@ ul.thin li {
 }
 #searchbars {
     position: absolute;
-    top: 235px;
+    top: 268px;
     width: 100%;
     text-align: center;
     /background-color: #303030;
@@ -323,7 +323,7 @@ ul.thin li {
 }
 #searchbars input {
     position: relative;
-    padding: 3px 20px 10px 5px;
+    padding: 3px 60px 10px 5px;
     font-size: 1.0em;
     background-color: #0D1117;
     color: #ccc;
@@ -1376,7 +1376,7 @@ cursor: help;
 /* Efeito deslizante com fundo totalmente transparente e sem contorno */
 #noteAlertMsg {
     position: absolute;
-    z-index: 6001;
+    z-index: 1001;
     top: -100px; /* Começa fora da tela */
     left: 0;
     right: 0;
@@ -1393,7 +1393,7 @@ cursor: help;
 /* Animação deslizante com oscilação */
 @keyframes slideDownBounce {
     0% {
-        top: -100px;
+        top: -40px;
         opacity: 0;
     }
     50% {
@@ -1407,7 +1407,7 @@ cursor: help;
         top: 20px;
     }
     100% {
-        top: 5px; /* Posição final */
+        top: 245px; /* Posição final */
     }
 }
 
