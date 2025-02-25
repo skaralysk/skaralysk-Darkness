@@ -152,13 +152,10 @@ ul.thin li {
 }
 #header {
     
-    /background: url(https://i.bj-share.info/9977c7393caad4f3b3aff4eda7154901.png) no-repeat top center;
-   background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
+ background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
     background-color: #000;
     width: 100%;
     padding: 0;
-
-    
 
 }
 
@@ -1384,15 +1381,12 @@ cursor: help;
 }
 /* Contêiner com movimento */
 #noteAlertMsg {
-    
-    z-index: 9999;
     top: 300px; /* Começa fora da tela (embaixo) */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     padding: 15px;
     height: 10px;
-    /background-color: #282828;
     color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.0);
