@@ -178,7 +178,7 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: #fff;
-    box-shadow: 0 0 10px 1px #000;
+    -shadow: 0 0 10px 1px #000;
     clear: both;
 }
 #logo {
@@ -205,10 +205,10 @@ ul.thin li {
     z-index: 6001;
     min-width: 850px;
     background: #0D1117;
-    box-shadow: 0 1px 4px #000;
+    -shadow: 0 1px 4px #000;
     border-bottom: 1px solid #303030;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.3s ease;
+    -shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: -shadow 0.3s ease;
 }
 
 #menu:hover {
@@ -472,7 +472,7 @@ p.min_padding {
 }
 .box {
    border-radius: 10px;
-    border: 1px solid #38393E;
+    border: 1px solid #38393E
     background: #151B23;
     margin-bottom: 10px;
    
