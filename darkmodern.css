@@ -223,6 +223,36 @@ ul.thin li {
     position: relative;
     top: 32px;
 }
+/* Ícones de Emojis para estatísticas */
+#userinfo_stats li#stats_seeding a::before {
+    content: '⬆️ ';
+}
+
+#userinfo_stats li#stats_leeching a::before {
+    content: '⬇️ ';
+}
+
+#userinfo_stats li#stats_ratio::before {
+    content: '🩻 ';
+}
+
+#userinfo_stats li#stats_bjpontos a::before {
+    content: '🪙 ';
+}
+
+/* Ícones de Emojis para links menores */
+#userinfo_minor li#nav_staffinbox a::before {
+    content: '🔥 ';
+}
+
+#userinfo_minor li#nav_requests a::before {
+    content: '📋 ';
+}
+
+#userinfo_minor li#nav_donations a::before {
+    content: '❤️ ';
+}
+
 #userinfo ul {
     display: inline;
     margin: 0 .8%;
