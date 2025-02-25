@@ -1,7 +1,12 @@
 body {
     color: #b5b5b5;
     min-width: 950px;
-    background-color: #0D1117;
+    /background-color: #0D1117;
+    background: linear-gradient(0deg, #0D1117 70.01%, #000 100%);
+
+Selection colors
+Hex
+
 }
 
 
@@ -150,11 +155,12 @@ ul.thin li {
     padding: 0;
 }
 #header {
-    
+    margin: 30px 0 0 0;
     background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
     background-color: #000;
     width: 100%;
     padding: 0;
+   
 
 }
 
@@ -178,7 +184,7 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: #fff;
-    -shadow: 0 0 10px 1px #000;
+    box-shadow: 0 0 10px 1px #000;
     clear: both;
 }
 #logo {
@@ -197,18 +203,20 @@ ul.thin li {
 }
 #menu {
     position: absolute;
-    top: 0px;
+    top: 25px;
     width: 100%;
     text-align: center;
     /background-color: #454545;
+    background: rgba(13, 17, 23, 0.80);
+    backdrop-filter: blur(9.850000381469727px);
     font-size: 10pt;
     z-index: 6001;
     min-width: 850px;
-    background: #0D1117;
-    -shadow: 0 1px 4px #000;
+    /background: #0D1117;
+    box-shadow: 0 1px 4px #000;
     border-bottom: 1px solid #303030;
-    -shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: -shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
 }
 
 #menu:hover {
@@ -228,7 +236,7 @@ ul.thin li {
     z-index: 10;
     min-width: 850px;
     position: relative;
-    top: 32px;
+    top: -297px;
 }
 /* Ícones de Emojis para estatísticas */
 #userinfo_stats li#stats_seeding a::before {
@@ -314,7 +322,7 @@ ul.thin li {
 }
 #searchbars {
     position: absolute;
-    top: 268px;
+    top: 300px;
     width: 100%;
     text-align: center;
     padding: 4px 0;
@@ -367,7 +375,7 @@ ul.thin li {
     margin-top: 32px;
     padding: 10px 0;
     width: 100%;
-    background: #0D1117;
+    /background: #0D1117;
     min-width: 850px;
 }
 #alerts a {
@@ -472,7 +480,7 @@ p.min_padding {
 }
 .box {
    border-radius: 10px;
-    border: 1px solid #38393E
+    border: 1px solid #1E2233;
     background: #151B23;
     margin-bottom: 10px;
    
@@ -1391,7 +1399,7 @@ cursor: help;
         opacity: 1;
     }
     100% {
-        top: 230px; /* Posição final */
+        top: 320px; /* Posição final */
         opacity: 1;
     }
 }
