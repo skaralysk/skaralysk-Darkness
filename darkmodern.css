@@ -540,7 +540,7 @@ ul.nobullet {
     list-style-type: none;
 }
 table, .table-list {
-    /width: 100%;
+    width: 100%;
     max-width: 100%;
     border-collapse: collapse;
     border: 1px solid #303030;
@@ -1379,6 +1379,7 @@ color:#fff;
 float: none !important;
 cursor: help;
 }
+
 /* Contêiner com movimento */
 #noteAlertMsg {
     top: 300px; /* Começa fora da tela (embaixo) */
