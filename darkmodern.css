@@ -2,10 +2,8 @@ body {
     color: #b5b5b5;
     min-width: 950px;
     /background-color: #0D1117;
-    background: linear-gradient(0deg, #0D1117 70.01%, #000 100%);
+    background: linear-gradient(0deg, #0D1117 77.03%, #000 90.05%);
 
-Selection colors
-Hex
 
 }
 
@@ -220,11 +218,12 @@ ul.thin li {
 }
 
 #menu:hover {
+    
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Aumenta a sombra */
 }
 
 #chat #nav_irc, #collage #nav_collages, #forums #nav_forums, #index #nav_index, #moderar #nav_moderar, #requests #nav_requests, #rules #nav_rules, #staff #nav_staff, #top10 #nav_top10, #torrents #nav_torrents, #user #nav_userinfor, #wiki #nav_wiki {
-    /background-color: #303030;
+    /background-color: #151B23;
 }
 #userinfo {
     background: #0D1117;
