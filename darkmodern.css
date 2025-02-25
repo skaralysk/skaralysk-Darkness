@@ -374,7 +374,7 @@ ul.thin li {
 #alerts {
     position: relative;
     margin-top: 32px;
-    margin-bottom: -60px;
+    /margin-bottom: -60px;
     padding: 10px 0;
     width: 100%;
     background: #0D1117;
@@ -441,6 +441,7 @@ input.hidden {
     display: none;
 }
 .thin {
+    
     width: 965px;
     margin: 0 auto;
 }
