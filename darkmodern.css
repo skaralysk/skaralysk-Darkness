@@ -206,7 +206,14 @@ ul.thin li {
     /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
     box-shadow: 0 1px 4px #000;
     border-bottom: 1px solid #303030;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
 }
+
+#menu:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Aumenta a sombra */
+}
+
 #chat #nav_irc, #collage #nav_collages, #forums #nav_forums, #index #nav_index, #moderar #nav_moderar, #requests #nav_requests, #rules #nav_rules, #staff #nav_staff, #top10 #nav_top10, #torrents #nav_torrents, #user #nav_userinfor, #wiki #nav_wiki {
     /background-color: #303030;
 }
@@ -1004,6 +1011,17 @@ button, input[type=button], input[type=submit] {
     padding: 0;
     width: 145px;
 }
+#nav_userinfor {
+    display: inline-flex;
+    align-items: center;
+}
+
+#nav_userinfor::after {
+    content: '⚙️'; /* Emoji do usuário */
+    margin-right: 6px;
+    font-size: 13px;
+}
+
 #menudrop ul li.current-menu-item {
     background: #ddd;
 }
