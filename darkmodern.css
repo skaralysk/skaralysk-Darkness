@@ -1,7 +1,6 @@
 body {
     color: #b5b5b5;
     min-width: 950px;
-    /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
     background-color: #0D1117;
 }
 
@@ -152,7 +151,7 @@ ul.thin li {
 }
 #header {
     
- background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
+    background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
     background-color: #000;
     width: 100%;
     padding: 0;
@@ -179,9 +178,7 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: #fff;
-    /border-top: 5px solid #242424;
     box-shadow: 0 0 10px 1px #000;
-    /background-color: #18191D;
     clear: both;
 }
 #logo {
@@ -208,7 +205,6 @@ ul.thin li {
     z-index: 6001;
     min-width: 850px;
     background: #0D1117;
-    /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
     box-shadow: 0 1px 4px #000;
     border-bottom: 1px solid #303030;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -224,7 +220,6 @@ ul.thin li {
 }
 #userinfo {
     background: #0D1117;
-    /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
     color: #b5b5b5;
     width: 100%;
     text-align: center;
@@ -322,7 +317,6 @@ ul.thin li {
     top: 268px;
     width: 100%;
     text-align: center;
-    /background-color: #303030;
     padding: 4px 0;
     min-width: 850px;
 }
@@ -371,11 +365,9 @@ ul.thin li {
 #alerts {
     position: relative;
     margin-top: 32px;
-    /margin-bottom: -60px;
     padding: 10px 0;
     width: 100%;
     background: #0D1117;
-    /background: url(https://i.bj-share.info/6e3137369a20ade607c443b5b93bd684.png) repeat scroll 0 #303030 !important;
     min-width: 850px;
 }
 #alerts a {
@@ -403,9 +395,9 @@ ul.thin li {
     width: 390px;
     margin: 0 auto;
     padding: 20px;
-border-radius: 10px;
-background: #0D1117;
-box-shadow: inset 5px 5px 5px #0c0d0f,
+    border-radius: 10px;
+    background: #0D1117;
+    box-shadow: inset 5px 5px 5px #0c0d0f,
             inset -4px -4px 4px #222329;
     animation: vibratePause 8s infinite;
 }
@@ -504,13 +496,8 @@ p.min_padding {
 }
 .head {
     padding: 4px;
-    /border-bottom: 1px solid #303030;
-    /background: #121212;
     color: #fff;
-    /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
-    /box-shadow: 0 1px 4px #000;
     border-radius: 10px 10px 0px 0px;
-    /border: 1px solid #38393E;
     background: #090C11;
 }
 .body {
@@ -622,7 +609,6 @@ ul {
   background: #353535 !important;
 }
 .noty_buttons a {
-    /background: #353535 !important;
     border-radius: 3px;
     margin: 5px;
     padding: 2px 5px 2px 5px;
@@ -1155,7 +1141,6 @@ a.BJinfoBox span {
     line-height: 15px;
     visibility: hidden;
     border-radius: 6px;
-    /border: 2px solid #494649;
     text-decoration: none;
     padding: 7px 10px;
     opacity: 0;
