@@ -60,6 +60,7 @@ p {
 li {
     margin: 5px 15px;
 }
+
 input {
     border-radius: 10px;
     padding: 2px 3px;
@@ -1276,6 +1277,7 @@ p.bjqs-caption {
 #banner-fade, #banner-slide {
     margin-bottom: 40px;
 }
+/* Estilo base */
 ul.bjqs-controls.v-centered li a {
     font-family: tahoma, helvetica, sans-serif;
     display: block;
@@ -1284,15 +1286,19 @@ ul.bjqs-controls.v-centered li a {
     font-weight: lighter;
     color: #fff;
     text-decoration: none;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     font-size: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Efeito ao passar o mouse */
 ul.bjqs-controls.v-centered li a:hover {
     background: #5c52e2;
+    transform: scale(1.1); /* Leve aumento */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
     text-decoration: none;
 }
+
 ol.bjqs-markers li a {
     padding: 5px 10px;
     background: #000;
