@@ -484,7 +484,7 @@ p.min_padding {
 }
 .box2 {
     font-size: 8pt;
-    background-color: #151B23;
+    background-color: #282828;
     border: 1px solid #303030;
     margin-bottom: 10px;
 }
@@ -1142,7 +1142,8 @@ a.BJinfoBox span {
     position: absolute;
     min-width: 185px;
     color: #eee;
-    background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
+    /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
+    background: #211B6D;
     line-height: 15px;
     visibility: hidden;
     border-radius: 6px;
