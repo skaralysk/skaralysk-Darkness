@@ -1025,6 +1025,18 @@ button, input[type=button], input[type=submit] {
 #menudrop ul li:hover {
     background: #0D1117;
 }
+#nav_userinfor::after {
+    content: '⚙️';
+    margin-left: -10px;
+    font-size: 13px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+#nav_userinfor:hover::after {
+    transform: rotate(360deg);
+}
+
 #menudrop ul ul {
     display: none;
     position: absolute;
