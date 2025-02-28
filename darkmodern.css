@@ -607,12 +607,12 @@ ul {
     margin: 0px 0px 0px 20px; 
 }
 .noty_message {
-    background: #222 url(https://i.bj-share.info/79ce067f3bd537f3a55383257b3c6d11.png) no-repeat 5px 10px;
+    background: #090C11 url(https://i.bj-share.info/79ce067f3bd537f3a55383257b3c6d11.png) no-repeat 5px 10px;
     margin: 0px 0px 0px 0px; 
-    color: #dddddd;
+    color: red;
 }
 .noty_buttons {
-  background: #353535 !important;
+  background: #151B23 !important;
 }
 .noty_buttons a {
     border-radius: 3px;
