@@ -1082,7 +1082,7 @@ button, input[type=button], input[type=submit] {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    background-image: linear-gradient(to top, #333639, #171616);
+    background-image: linear-gradient(to bottom, #5C52E2, #1B1653);
     text-indent: -9999px;
     display: none;
     -webkit-border-radius: 6px;
@@ -1101,7 +1101,7 @@ button, input[type=button], input[type=submit] {
     border-bottom-color: #fff;
 }
 #irtopo:hover {
-    background-image: linear-gradient(to top, #505355, #161718);
+    background-image: linear-gradient(to bottom, #1B1653, #1B1653);
     opacity: 1;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
@@ -1115,7 +1115,7 @@ button, input[type=button], input[type=submit] {
   height: 40px;
   background: #3498db;
   cursor: pointer;
-  background-image: linear-gradient(to bottom, #313437, #111);
+  background-image: linear-gradient(to bottom, #2E259D, #1B1653);
   text-indent: -9999px;
   display: none;
   -webkit-border-radius: 6px;
@@ -1132,10 +1132,11 @@ button, input[type=button], input[type=submit] {
   width: 0;
   border: 8px solid transparent;
   border-top-color: #fff;
+
 }
 #irfinal:hover {
   background: #505355;
-  background-image: linear-gradient(to bottom, #505355, #171616);
+  background-image: linear-gradient(to bottom, #5C52E2, #1B1653);
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)"
