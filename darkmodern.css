@@ -149,6 +149,29 @@ ul.thin li {
     margin: 0 0;
     padding: 0;
 }
+.button {
+    min-width: 30px;
+    margin-bottom: 0px;
+    background: #5C52E2;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 8px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: rgb(0 0 0 / 10%) 0px 1px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    appearance: auto;
+}
+.button:hover {
+    background: #1B1653;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 #header {
     margin: 30px 0 0 0;
     /background: url(https://i.bj-share.info/3a7e6b3011122939f1d89010a5dfc406.gif) no-repeat top center; 
