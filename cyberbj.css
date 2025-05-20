@@ -992,12 +992,13 @@ tr.row2 {
     background-color: #090C11;
 }
 button:hover, input[type=button]:hover, input[type=submit]:hover {
-    background: #5c52e2;
+    background: linear-gradient(90deg, #EF0 0%, #A6FF00 100%);
+    color: #000;
     text-decoration: none;
 }
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
-    background: #5c52e2;
-    color: #fff;
+    background: #697100;
+    color: #000;
     cursor: default;
 }
 button, input[type=button], input[type=submit] {
