@@ -509,7 +509,7 @@ p.min_padding {
 .box {
     /border-radius: 10px;
     border: 1px solid #000;
-    background: linear-gradient(122deg, rgba(0, 0, 0, 0.20) 99.02%, #FFF600 99.02%);
+    background: linear-gradient(122deg, rgba(0, 0, 0, 0.20) 100%, #FFF600 100%);
     margin-bottom: 10px;
    
 }
@@ -534,14 +534,13 @@ p.min_padding {
 .head {
     padding: 4px;
     color: #FFFF00;
-    border-top: 1px rgba(0, 0, 0, 0.01);
-    border-right: 1px rgba(0, 0, 0, 0.01);
-    border-bottom: 2px rgba(0, 0, 0, 0.01);
-    border-left: 8px solid #FFFF00;
+    border-left: 5px solid #FFFF00;
     background: rgba(0, 0, 0, 0.1);
     background: rgba(255, 225, 0, 0.0);
     border-radius: 2px 2px 0px 0px;
     /background: #FFFF00;
+     border-top: 5px solid transparent;
+     border-bottom: 5px solid transparent;
 }
 .body {
     padding: 3px 10px 10px 10px;
