@@ -997,7 +997,7 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
     text-decoration: none;
 }
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
-    background: #697100;
+    background: #EEFF00;
     color: #000;
     cursor: default;
 }
@@ -1439,6 +1439,17 @@ padding: 0px 5px;
 color:#fff;
 float: none !important;
 cursor: help;
+}
+
+#chatoutput {
+  height: 350px;
+  overflow: auto;
+    border: 1px solid;
+    border-top-color: #000;
+    border-left-color:#FF0;
+    border-bottom-color: #000;
+    border-right-color: #FF0;
+    border-radius: 10px;
 }
 
 /* Contêiner com movimento */
