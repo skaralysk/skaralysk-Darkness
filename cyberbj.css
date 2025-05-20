@@ -1389,10 +1389,11 @@ ul.bjqs-controls.v-centered li a {
 
 /* Efeito ao passar o mouse */
 ul.bjqs-controls.v-centered li a:hover {
-    background: #5c52e2;
+    background: linear-gradient(90deg, #EF0 0%, #A6FF00 100%);
     transform: scale(1.1); /* Leve aumento */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
     text-decoration: none;
+    color: #000;
 }
 /* Efeito de brilho ao passar o mouse */
 ul.bjqs-controls.v-centered li a::after {
@@ -1402,7 +1403,7 @@ ul.bjqs-controls.v-centered li a::after {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(145deg, #ff00ff, #00ffff);
+    background: linear-gradient(90deg, #EF0 0%, #A6FF00 100%);
     z-index: -1;
     filter: blur(10px);
     opacity: 0;
