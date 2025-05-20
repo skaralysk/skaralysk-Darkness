@@ -3,7 +3,8 @@ body {
     font-family:Titillium Web,"Segoe UI Web (West European)",Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
     color: #b5b5b5;
     min-width: 950px;
-    background: url(https://i.imgur.com/2glBtRd.jpeg) no-repeat top center;
+    /background: url(https://i.imgur.com/2glBtRd.jpeg) no-repeat top center;
+    background: url(https://i.imgur.com/HCvjKFY.gif) no-repeat top center;
     background-color: #010916;
 }
 
