@@ -74,6 +74,7 @@ textarea {
 }
 img {
     border: none;
+    
 }
 .r01 {
     color: #ff1300;
@@ -544,6 +545,7 @@ p.min_padding {
 .body {
     padding: 3px 10px 10px 10px;
 }
+
 .main_column {
     width: 710px;
 }
@@ -583,7 +585,7 @@ tr.rowa {
     background-color: #0D1117;
 }
 td, th {
-    border: 1px solid #303030;
+    border: 1px solid #1B1A12;
     padding: 5px;
     text-align: left;
 }
@@ -753,7 +755,11 @@ ul.poll li.graph {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 .torrent_table tr.group, tr.group_torrent, tr.torrent {
-    background-color: #151B23;
+    background: rgba(255, 225, 0, 0.00);
+    
+    
+Colors Hex Hex Background colors #FFE100 · 8%
+
 }
 .torrent_table div.tags {
     font-weight: 400;
@@ -1193,7 +1199,7 @@ a.BJinfoBox span {
     min-width: 185px;
     color: #eee;
     /background: url(https://i.bj-share.info/ec01898d04940834f4312bb56df3f8c6.png) repeat scroll 0 #1d1d1d !important;
-    background: #211B6D;
+    background: #252500;
     line-height: 15px;
     visibility: hidden;
     border-radius: 6px;
@@ -1279,6 +1285,7 @@ ul.bjqs {
     margin: 0;
     overflow: hidden;
     display: none;
+    
 }
 li.bjqs-slide {
     position: absolute;
