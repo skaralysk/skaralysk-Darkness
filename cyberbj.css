@@ -213,6 +213,19 @@ ul.thin li {
     box-shadow: 0 0 10px 1px #000;
     clear: both;
     background: url(https://i.imgur.com/Ju5iWhE.png) no-repeat top center; 
+      animation: pulsar 6.9s infinite;
+    }
+
+    @keyframes pulsar {
+      0% {
+        box-shadow: 0 0 2px #FFFF00;
+      }
+      20% {
+        box-shadow: 0 0 8px 5px #FFFF00;
+      }
+      100% {
+        box-shadow: 0 0 2px #FFFF00;
+      }
 }
 #logo {
     width: 100%;
