@@ -212,6 +212,7 @@ ul.thin li {
     color: #fff;
     box-shadow: 0 0 10px 1px #000;
     clear: both;
+    background: url(https://i.imgur.com/Ju5iWhE.png) no-repeat top center; 
 }
 #logo {
     width: 100%;
