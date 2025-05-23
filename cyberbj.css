@@ -1471,6 +1471,12 @@ cursor: help;
     opacity: 0;
     animation: slideUpFade 0.5s ease-out forwards;
 }
+.fa-arrow-up:before {
+  content:"\002B9D";
+}
+.fa-arrow-down:before {
+  content:"\002B9F"
+}
 
 /* Animação do movimento */
 @keyframes slideUpFade {
