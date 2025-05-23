@@ -281,24 +281,29 @@ ul.thin li {
 }
 /* Ícones de Emojis para estatísticas */
 #userinfo_stats li#stats_seeding a::before {
-    content: '⬆️ ';
+    content: '▲ ';
+    color: yellow;
 }
 
 #userinfo_stats li#stats_leeching a::before {
-    content: '⬇️ ';
+    content: '▼ ';
+    color: yellow;
 }
 
 #userinfo_stats li#stats_ratio::before {
-    content: '🩻 ';
+    content: '☢︎ ';
+    color: yellow;
 }
 
 #userinfo_stats li#stats_bjpontos a::before {
-    content: '🪙 ';
+    content: '◍ ';
+    color: yellow;
 }
 
 /* Ícones de Emojis para links menores */
 #userinfo_minor li#nav_staffinbox a::before {
-    content: '🔥 ';
+    content: '♛ ';
+    color: yellow;
 }
 
 #userinfo_minor li#nav_requests a::before {
@@ -306,7 +311,7 @@ ul.thin li {
 }
 
 #userinfo_minor li#nav_donations a::before {
-    content: '❤️ ';
+    content: '💛 ';
 }
 
 #userinfo ul {
