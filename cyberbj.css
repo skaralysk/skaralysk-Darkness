@@ -590,7 +590,7 @@ td, th {
     text-align: left;
 }
 .colhead {
-    background:#090C11;
+    background: #A6A617;
     font-weight: 700;
     color: #fff;
 }
@@ -1026,6 +1026,7 @@ button, input[type=button], input[type=submit] {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+    transform: skew(-10deg);
 }
 #menudrop ul {
     list-style: none;
@@ -1476,6 +1477,7 @@ cursor: help;
 }
 .fa-arrow-down:before {
   content:"\002B9F"
+  
 }
 
 /* Animação do movimento */
