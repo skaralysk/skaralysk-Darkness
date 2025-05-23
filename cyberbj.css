@@ -367,6 +367,7 @@ ul.thin li {
     border-bottom: 1px solid #FF0;
     background: rgba(0, 0, 0, 0.01);
     border-radius: 5px;
+    transform: skew(-10deg);
     
 }
 #searchbars ul {
