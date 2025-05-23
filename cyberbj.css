@@ -1125,7 +1125,7 @@ button, input[type=button], input[type=submit] {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    background-image: linear-gradient(to bottom, #5C52E2, #1B1653);
+    background-image: linear-gradient(to bottom, #EF0, #EF0);
     text-indent: -9999px;
     display: none;
     -webkit-border-radius: 6px;
@@ -1141,10 +1141,10 @@ button, input[type=button], input[type=submit] {
     height: 0;
     width: 0;
     border: 8px solid transparent;
-    border-bottom-color: #fff;
+    border-bottom-color: #000;
 }
 #irtopo:hover {
-    background-image: linear-gradient(to bottom, #1B1653, #1B1653);
+    background-image: linear-gradient(to bottom, #EF0, #B0F);
     opacity: 1;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
@@ -1158,7 +1158,7 @@ button, input[type=button], input[type=submit] {
   height: 40px;
   background: #3498db;
   cursor: pointer;
-  background-image: linear-gradient(to bottom, #2E259D, #1B1653);
+  background-image: linear-gradient(to bottom, #FFFF00, #FFFF00);
   text-indent: -9999px;
   display: none;
   -webkit-border-radius: 6px;
@@ -1174,12 +1174,12 @@ button, input[type=button], input[type=submit] {
   height: 0;
   width: 0;
   border: 8px solid transparent;
-  border-top-color: #fff;
+  border-top-color: #000;
 
 }
 #irfinal:hover {
   background: #505355;
-  background-image: linear-gradient(to bottom, #5C52E2, #1B1653);
+  background-image: linear-gradient(to bottom, #E7FF18, #FB00EB);
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)"
@@ -1393,6 +1393,7 @@ ul.bjqs-controls.v-centered li a {
     border-radius: 6px;
     font-size: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    transform: skew(-10deg);
 }
 
 /* Efeito ao passar o mouse */
@@ -1416,6 +1417,7 @@ ul.bjqs-controls.v-centered li a::after {
     filter: blur(10px);
     opacity: 0;
     transition: opacity 0.3s;
+    
 }
 
 ul.bjqs-controls.v-centered li a:hover::after {
