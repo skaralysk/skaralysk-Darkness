@@ -602,7 +602,8 @@ table, .table-list {
 }
 tr {
     border: 1px solid #303030;
-    background-color: #151B23;
+    background: linear-gradient(122deg, rgba(0, 0, 0, 0.10) 100%, #FFF600 100%);
+    backdrop-filter: blur(2px);
 }
 tr.rowa {
     background-color: #0D1117;
