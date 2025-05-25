@@ -1003,7 +1003,7 @@ button, input[type=button], input[type=submit] {
     top: -160px; /* Ajuste este valor para subir o submenu */
     background: #454545; /* Ajuste conforme o design */
     z-index: 1;
-    background: rgba(0, 16, 32, 0.92);
+    background: linear-gradient(94deg, #0C0C0C 46.92%, #23262F 111.05%);
     backdrop-filter: blur(2px);
 }
 #irtopo {
