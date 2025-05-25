@@ -1033,6 +1033,17 @@ button, input[type=button], input[type=submit] {
 #menudrop ul li:hover>ul {
     display: block;
 }
+#menudrop ul ul ul ul {
+    max-height: 300px; /* Define o tamanho máximo da terceira aba */
+    overflow-y: auto; /* Adiciona rolagem apenas na terceira aba */
+    position: absolute;
+    left: 100%; /* Faz o submenu abrir ao lado do segundo nível */
+    top: 0px; /* Ajuste este valor para subir o submenu */
+    background: #454545; /* Ajuste conforme o design */
+    z-index: 6002;
+    background: rgba(15, 15, 15, 0.80);
+    backdrop-filter: blur(12.5px);
+}
 #irtopo {
     position: fixed;
     right: 10px;
@@ -1339,7 +1350,6 @@ p.bjqs-caption {
 }
 #noteAlertMsg {
     position: absolute;
-    z-index: 6001;
     top: 30px;
     left: 0;
     right: 0;
