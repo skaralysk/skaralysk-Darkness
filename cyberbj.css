@@ -1139,7 +1139,7 @@ button, input[type=button], input[type=submit] {
     overflow-y: auto; /* Adiciona rolagem apenas na terceira aba */
     position: absolute;
     left: 100%; /* Faz o submenu abrir ao lado do segundo nível */
-    top: -160px; /* Ajuste este valor para subir o submenu */
+    top: 0px; /* Ajuste este valor para subir o submenu */
     background: #454545; /* Ajuste conforme o design */
     z-index: 1;
     background: rgba(0, 16, 32, 0.92);
