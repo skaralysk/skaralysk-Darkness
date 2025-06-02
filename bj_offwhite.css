@@ -1109,26 +1109,53 @@ tr.row1 {
 tr.row2 {
     background-color: #FFFFFF;
 }
-button:hover, input[type=button]:hover, input[type=submit]:hover {
-    background: #ddd;
-    text-decoration: none;
-}
 button, input[type=button], input[type=submit] {
     cursor: pointer;
     outline: 0;
-    transition: all 0.1s linear;
-    background: #e6e6e6;
-    border: 1px solid #1b1b1b;
-    border-radius: 5px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    color: #0b0b0b;
-    padding: 6px 10px;
+    transition: all 0.2s ease;
+    background: linear-gradient(180deg, #4a4a4a 0%, #2d2d2d 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 8px 20px;
     margin: 0.5% 0% 0% 0%;
+    min-width: 80px;
+    text-align: center;
 }
+
+button:hover, input[type=button]:hover, input[type=submit]:hover {
+    background: linear-gradient(180deg, #5a5a5a 0%, #3d3d3d 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+button:active, input[type=button]:active, input[type=submit]:active {
+    background: linear-gradient(180deg, #3a3a3a 0%, #1d1d1d 100%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4),
+                inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+}
+
 button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled {
-  /background: #303030;
-  color: #686868;
-  cursor: default;
+    background: linear-gradient(180deg, #606060 0%, #404040 100%);
+    color: #a0a0a0;
+    cursor: default;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transform: none;
+    text-shadow: none;
+}
+
+button:disabled:hover, input[type="button"]:disabled:hover, input[type="submit"]:disabled:hover {
+    background: linear-gradient(180deg, #606060 0%, #404040 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transform: none;
 }
 select {
     appearance: none;
@@ -1406,41 +1433,68 @@ ul.bjqs-controls.v-centered li.bjqs-next a {
     margin-top: 205px;
     right: 6px;
     min-width: 83px;
-    margin-bottom: 0;
-    border: 1px solid;
-    border-top-color: #494649;
-    border-left-color: #494649;
-    border-bottom-color: #494649;
-    border-right-color: #494649;
-    cursor: pointer;
-    background-color: rgba(185, 185, 185, 0.2);
-    background-repeat: no-repeat;
-    vertical-align: middle;
     text-align: center;
-    padding: 6px 8px 6px 8px;
-    letter-spacing: .075em;
-    color: #000;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(180deg, #4a4a4a 0%, #2d2d2d 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+    outline: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+ul.bjqs-controls.v-centered li.bjqs-next a:hover {
+    background: linear-gradient(180deg, #5a5a5a 0%, #3d3d3d 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: translateY(-1px);
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a:active {
+    background: linear-gradient(180deg, #3a3a3a 0%, #1d1d1d 100%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4),
+                inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+}
+
 ul.bjqs-controls.v-centered li.bjqs-prev a {
     margin-top: 205px;
     left: 28px;
     min-width: 83px;
-    margin-bottom: 0;
-    border: 1px solid;
-    border-top-color: #494649;
-    border-left-color: #494649;
-    border-bottom-color: #494649;
-    border-right-color: #494649;
-    cursor: pointer;
-    background-color: rgba(185, 185, 185, 0.2);
-    background-repeat: no-repeat;
-    vertical-align: middle;
     text-align: center;
-    padding: 6px 8px 6px 8px;
-    letter-spacing: .075em;
-    color: #000;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(180deg, #4a4a4a 0%, #2d2d2d 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+    outline: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover {
+    background: linear-gradient(180deg, #5a5a5a 0%, #3d3d3d 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: translateY(-1px);
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a:active {
+    background: linear-gradient(180deg, #3a3a3a 0%, #1d1d1d 100%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4),
+                inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
 }
 ol.bjqs-markers {
     list-style: none;
