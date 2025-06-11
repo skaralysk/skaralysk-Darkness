@@ -584,7 +584,9 @@ table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #303030;
-    box-shadow: 0 1px 3px #000;
+    /box-shadow: 0 1px 3px #000;
+    border-radius: 5px;
+    
 }
 tr.resolution_header{
     background: url(https://bj-share.info/static/styles/bj-test/images/menu.png) repeat scroll 0 #bbb !important;
@@ -595,6 +597,7 @@ tr.season_header, td.season_header{
 tr {
    /border: 1px solid #303030;
    /background-color: #EEE;
+    
 }
 tr.rowa {
     background-color: #F2F2F2;
@@ -603,6 +606,9 @@ td, th {
     border: 1px solid #CACACA;
     padding: 5px;
     text-align: left;
+    
+    
+    
 }
 .colhead {
     background: #f2f2f2;
@@ -620,14 +626,17 @@ td, th {
     padding-left: 6px;
     padding-right: 12px;
     border-bottom: 1px solid #000;
+    
 }
 .colhead th {
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 td.colhead {
     padding-left: 5px;
     padding-right: 5px;
+    
 }
 .colhead .sign {
     padding: 0 8px 0 8px;
@@ -640,9 +649,11 @@ td.colhead {
     color: #333;
     vertical-align: middle;
     box-shadow: 0px 0px 3px #ddd;
+    border-radius: 5px;
 }
 .colhead_dark a {
     color: #369659;
+    
 }
 td.label {
     font-weight: 700;
@@ -926,9 +937,11 @@ strong.quoteheader {
 }
 table.forum_post {
     margin: 10px 0;
+    
 }
 table.forum_post td {
     border: 1px solid #979797;
+    
 }
 table.forum_unread {
     border: 1px solid #979797;
@@ -943,6 +956,7 @@ table.forum_post td.body {
 tbody {
     max-width: 690px;
     background: #fff;
+    
 }
 blockquote {
     -webkit-border-radius: 5px;
