@@ -168,7 +168,7 @@ ul.thin li {
 }
 /*logo*/
 #header {  
-    /background: url('https://i.bj-share.info/b0f204dc5c4ffc13778787ff1a29831b.png') no-repeat top center;
+    background: url('https://i.imgur.com/0jq5xRO.gif') no-repeat top center;
     background-color: rgba(0, 0, 0, 0);
     /color: #555;
     width: 100%;
@@ -381,7 +381,7 @@ ul.thin li {
 }
 #searchbars input {
     position: relative;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 15px 10px 15px;
     font-size: 13px;
     background: #CBF2FF url('images/search.png') no-repeat center left;
     color: #68879D;
