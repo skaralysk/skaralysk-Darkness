@@ -1122,9 +1122,9 @@ table.shoutTable {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .6);
 }
 td.shoutTable {
-    border: 0.1px groove #353535;
-    box-shadow: 0px -1px 1px #000;
-    padding: 8px;
+    /*! border: 0.1px groove #353535; */
+    /*! box-shadow: 0px -1px 1px #000; */
+    padding: 10px;
     text-align: left;
 }
 table.shoutTable a {
@@ -1838,4 +1838,10 @@ p.bjqs-caption {
 
 .BBCodeToolbar-button[aria-pressed="true"] .BBCodeToolbar-icon {
   fill: var(--button-active-color, #0066cc);
+}
+#chatoutput {
+  height: 350px;
+  overflow: auto;
+  border: 1px solid #5757CD;
+  border-radius: 10px;
 }
